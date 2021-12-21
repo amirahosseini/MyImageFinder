@@ -20,12 +20,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="w-10/12">
-        <div>
-          <SearchBar onSubmit={this.onSearchSubmit} />
-        </div>
-        <div>
-          <ShowImages ImagesID={this.state.MyImage}/>
+      <div className="flex justify-center">
+        <div className=''>
+          <div>
+            <SearchBar onSubmit={this.onSearchSubmit} />
+          </div>
+          <div>
+            <ShowImages ImagesID={this.state.MyImage}/>
+          </div>
         </div>
       </div>
     );

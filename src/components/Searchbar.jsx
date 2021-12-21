@@ -12,12 +12,12 @@ class SearchBar extends React.Component {
   render() {
     return (
       
-      <div className="m-10 ">
+      <div className="m-10 w-12/12">
         <form onSubmit={this.onFormSubmit} className="">
           <div className="flex">
-            <label className="">Image Search</label>
+            <label className="p-2">Image Search</label>
             <input
-                className=" border-gray-400 rounded-xl ml-5 border"
+                className="w-96 border-gray-400 rounded-xl ml-5 border p-2"
                 type="text"
                 value={this.state.term}
                 onChange={e => this.setState({ term: e.target.value })}
