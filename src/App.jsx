@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import SearchBar from './SearchBar';
-import ShowImages from './ShowImages';
-import unsplash from '../api/unsplash';
+import SearchBar from './components/Searchbar';
+import ShowImages from './components/ShowImages';
+import unsplash from './api/unsplash';
 
 class App extends React.Component {
 
